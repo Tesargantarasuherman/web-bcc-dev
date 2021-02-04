@@ -1,0 +1,47 @@
+{
+  "locations": [
+    {
+      "description": "Das SEZ bietet ein großes Sport-, Freizeit- und Erholungsangebot. Ab sofort könnt ihr das SEZ für Events unter: sez@glut.berlin anmieten. Kommt vorbei und genießt den industriellen Charm einer in Vergessenheit geglaubten Location. ",
+      "name": "Sukajadi",
+      "geometry": 
+        {
+          "lat": "-6.890394",
+          "lng": "107.588980"
+        }
+    }
+  ],
+  "criminals": [
+    {
+      "description": "Penjambretan",
+      "link": "https://www.youtube.com/embed/gIB2egm7tL8",
+      "name": "Sukajadi",
+      "geometry": 
+        {
+          "lat": "-6.917907",
+          "lng": "107.677767"
+        }
+    },
+    {
+      "description": "Pencopetan",
+      "link": "https://www.youtube.com/embed/os6exj_GZnk",
+      "name": "Sukajadi",
+      "geometry": 
+        {
+          "lat": "-6.942333",
+          "lng": "107.577144"
+        }
+    }
+  ],
+  "cctv": [
+    {
+      "description": "Diskominfo",
+      "link": "https://www.youtube.com/embed/gIB2egm7tL8",
+      "name": "Sukajadi",
+      "geometry": 
+        {
+          "lat": "-6.917907",
+          "lng": "107.677767"
+        }
+    }
+  ]
+}
