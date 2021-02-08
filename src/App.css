@@ -6,7 +6,8 @@
   text-decoration: none !important;
 }
 .leaflet-popup-content-wrapper{
-  width: 800px !important;
+  width: auto !important;
+  z-index: 99999 !important;
 }
 .px-20{
   padding: 0px 200px !important;
@@ -38,6 +39,39 @@
 }
 .bg-light{
   background-color: #ffffff !important;
+}
+.bg-primary{
+  background-color: #5086C1 !important;
+}
+/* border */
+.br-5{
+  border-radius: 5px !important;
+}
+.br-10{
+  border-radius: 10px !important;
+}
+.br-full{
+  border-radius: 50% !important;
+}
+/* font */
+.font-14{
+  font-size: 14px !important;
+}
+.font-18{
+  font-size: 18px !important;
+}
+.font-20{
+  font-size: 20px !important;
+}
+.font-24{
+  font-size: 24px !important;
+}
+.shadow{
+  -webkit-box-shadow: -1px 0px 14px 4px rgba(0,0,0,0.44); 
+box-shadow: -1px 0px 14px 4px rgba(0,0,0,0.44);
+}
+.overflow-hidden{
+  overflow: hidden;
 }
 @media only screen and (max-width: 770px) {
   .nav-text-services{
