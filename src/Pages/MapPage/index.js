@@ -25,6 +25,11 @@ export default class MapPage extends Component {
         locations: db.cctv
       }, () => console.log(this.state.locations))
   }
+  markets = () => {
+      this.setState({
+        locations: db.markets
+      }, () => console.log(this.state.locations))
+  }
   clearData = () => {
     this.setState({
       locations: ''
@@ -52,6 +57,7 @@ export default class MapPage extends Component {
                   {/* <button type="button" class="btn btn-info btn-block" onClick={this.clearData}>Clear</button> */}
                   <button type="button" class="btn btn-danger btn-block" onClick={this.criminals}>Kriminal</button>
                   <button type="button" class="btn btn-info btn-block" onClick={this.cctv}>CCTV</button>
+                  <button type="button" class="btn btn-warning btn-block" onClick={this.markets}>Markets</button>
                 </div>
               </div>
             </div>
